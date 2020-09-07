@@ -68,7 +68,7 @@ All you need to do is to add the agent.jar to CLASSPATH and start:
 Add at the end of VM params: 
 
 ```
--javaagent:<PATH_TO_ASPECTS>/aspectjweaver-1.9.6.jar
+-javaagent:<path-to-aspectj>/aspectjweaver-1.9.6.jar
 ```
 
 You also need to add following files in CLASSPATH:
