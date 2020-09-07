@@ -64,7 +64,7 @@ public class UserRepo {
 
 If you want to use Authorization, your User class must contain a filed named *role* which holds roles (usually as enums).
 
-You need to add the CLASSPATH following jars:
+You need to add to the CLASSPATH following jars:
 * agent.jar
 * aspectjweaver-1.9.6.jar
 * aspectjrt-1.9.6.jar
