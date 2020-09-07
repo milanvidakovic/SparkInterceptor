@@ -64,14 +64,15 @@ public class UserRepo {
 
 If you want to use Authorization, your User class must contain a filed named *role* which holds roles (usually as enums).
 
-All you need to do is to add the agent.jar to CLASSPATH and start:
-Add at the end of VM params: 
-
-```
--javaagent:<path-to-aspectj>/aspectjweaver-1.9.6.jar
-```
-
-You also need to add following files in CLASSPATH:
+You need to add the CLASSPATH following jars:
+* agent.jar
 * aspectjweaver-1.9.6.jar
 * aspectjrt-1.9.6.jar
 * aspectjtools-1.9.6.jar
+
+To start your SparkJava app with the interceptor, add at the end of VM params: 
+
+```
+-javaagent:c:\<path-to-aspectj>\aspectjweaver-1.9.6.jar
+```
+
