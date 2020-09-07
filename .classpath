@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/aspectjrt-1.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/aspectjtools-1.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/aspectjweaver-1.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jakarta.ws.rs-api-2.1.5.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-vfs-3.2.12.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jjwt-api-0.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/spark-core-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

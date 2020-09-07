@@ -14,7 +14,7 @@ public class App {
     get("/rest/student/getall", (Request request, Response response) -> {
       return StudentiService.getAll(request, response);	
 	});
-    put("/rest/student/delete/:id", (Request request, Response response) -> {
+    delete("/rest/student/delete/:id", (Request request, Response response) -> {
       return StudentiService.delete(request, response);	
 	});
     ...
