@@ -65,7 +65,11 @@ public class UserRepo {
 If you want to use Authorization, your User class must contain a filed named *role* which holds roles (usually as enums).
 
 All you need to do is to add the agent.jar to CLASSPATH and start:
-Add at the end of VM params: -javaagent:c:\<path-to-aspectj>\aspectjweaver-1.9.6.jar
+Add at the end of VM params: 
+
+```
+-javaagent:<PATH_TO_ASPECTS>/aspectjweaver-1.9.6.jar
+```
 
 You also need to add following files in CLASSPATH:
 * aspectjweaver-1.9.6.jar
